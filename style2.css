@@ -1,0 +1,257 @@
+@media screen and (min-width: 360px) and (max-width: 700px) 
+{
+    * {
+        margin: 0;
+        padding: 0;
+    } 
+    
+    #mainB {
+        background-color: #67676729;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #navbar {
+        top: 0px;
+        left: 150px;
+        width: 100%;
+        height: 94px;
+        display: flex;
+        align-items: center;
+        background: white 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 30px #7b7b7b29;
+        opacity: 5;
+    }
+    
+    #C{
+        font-size: 160%;
+        color: black;
+        font-size: 125%;
+        text-decoration: none;
+    }
+    
+    /* .fa-circle-plus {
+        color: #00a5ec;
+    } */
+    
+    #link {
+        display: flex;
+        justify-content: center;
+        margin: 40px 60px;
+        font: normal 20px inter;
+        text-decoration: none;
+    }
+    
+    #T {
+      color: #424242;
+      margin-left: 100px;
+      width: 115px;
+      height: 49px;
+      text-align: left;
+      font: bold 40px inter;
+      letter-spacing: 0px;
+    }
+    
+    #L {
+      left: 115px;
+      width: 100px;
+      height: 49px;
+      text-align: left;
+      font: bold 40px inter;
+      letter-spacing: 0px;
+      color: #00a5ec;
+    }
+    
+    #commonbox {
+        display: flex; 
+        margin-left: 7%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    
+    .information {
+        background-color: white;
+        width: 350px;
+        height: 300px;
+        font: bold 20px inter;
+        border-radius: 15px;
+        margin: 50px;
+    }
+    
+    .information:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgb(117, 116, 116);
+    }
+    
+    .Head {
+        padding: 20px;
+        color: #00A5EC;
+    }
+    
+    .cb {
+        padding-left: 2%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .textcrossed {
+    text-align: left;
+    font: normal 20px Inter;
+    letter-spacing: 0px;
+    text-decoration: line-through;
+    color: #C2C2C2;
+    opacity: 1;
+    }
+    
+    /* .checkbox {
+        padding-left: 2%;
+    } */
+    
+    .fa-sharp {
+        color: #00A5EC;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .fa-solid {
+        /* width: 8%; */
+        font-size: 30px;
+        opacity: 0.3;
+    }
+    
+    .fa-regular {
+        opacity: 0.1;
+        font-size: 30px;
+    }
+    
+    /* for page second */
+    
+    .second {
+        width: 280px;
+        height: 280px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 15px;
+        /* margin-top: 5%; */
+        /* margin-left: 35%; */
+        position: absolute;
+        top: 300px;
+        left: -9%;
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    
+    .Add{
+        padding: 20px;
+        font-size: 30px;
+        font: bold 20px inter;
+    }
+    
+    .AddForm {
+        width: 192px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #67676729;
+        position: relative;
+        left: 5px;
+        margin: 20px;
+    }
+    
+    .sub{
+        width: 125px;
+        height: 55px;
+        color: white;
+        background-color: #00A5EC;
+        border-radius: 10px;
+        font-size: 25px;
+        position: relative;
+        left: 96px;
+        margin-top: 20px;
+    }
+    
+    .fa-thin {
+        font-size: 25px;
+    }
+    
+    .blurred {
+        filter: blur(10px);
+        filter: brightness(2px);
+    }
+    
+    /* for third page */
+    
+    .third {
+        background-color: white;
+        width: 380px;
+        height: 330px;
+        font: bold 20px inter;
+        border-radius: 15px;
+        margin: 50px;
+        /* margin-left: 35%; */
+        box-shadow: 0px 0px 3px gray;
+        /* flex-direction: column;
+        align-items: centerss; */
+    }
+    #link2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link3 {
+        width: 83%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .blurred2 {
+        filter: blur(3px);
+        filter: brightness(2px);
+    }
+    
+    .fourth {
+        width: 500px;
+        height: 280px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 15px;
+        margin-left: 30%;
+        position: absolute;
+        top: 200px;
+    }
+    
+    .Add2 {
+        font-size: 22px;
+        padding-top: 18px;
+        font: bold 20px inter;
+    }
+    
+    .sub2 {
+        width: 175px;
+        height: 55px;
+        color: white;
+        background-color: #00A5EC;
+        border-radius: 10px;
+        font-size: 22px;
+        position: relative;
+        left: 300px;
+        margin-top: 20px;
+    }
+    
+    .AddForm2 {
+        width: 450px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #67676729;
+        position: relative;
+        left: 5px;
+        margin: 20px;
+    }
+    
+    .fa-xmark {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+    }
+}

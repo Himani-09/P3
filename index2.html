@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b777280118.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="blurred">
+        <div id="mainB">
+            <div id="navbar">
+                <span id="T"> Tasks </span>
+                <span id="L"> Lists </span>
+            </div>
+            <div id="link">
+                <!--<a href="second.html" ><i class="fa-sharp fa-solid fa-circle-plus"></i></a>-->
+                <a href="index2.html" ><span id="C"><i class="fa-sharp fa-solid fa-circle-plus"></i>&nbsp; &nbsp;Add New Task</span></a>
+            </div>
+            <!--this id is for all the 5 boxes, we will give one common id-->
+            <div id="commonbox">
+            <!--class information is for all the information of 5 boxes-->    
+                <div class="information">
+            <!--class head is the heading for all the 5 boxes-->        
+                    <a href="index2.html"><h2 class="Head">Trip to Paris</h2></a><!--<h2 class="Head">Trip to Paris</h2>-->
+                    <hr>
+                    <br> <br>
+                    <div class="cb">
+                        <i class="fa-solid fa-square-check"></i>
+                        <p class="textcrossed">Visit Church</p>
+                    </div>
+                    <br>
+                    <span><i class="fa-regular fa-square"></i>Shopping</span>
+                </div>
+        
+                <div class="information">
+                    <h2 class="Head">My ToDo list</h2>
+                    <hr>
+                    <br> <br>
+                    <div class="cb">
+                        <i class="fa-solid fa-square-check"></i>
+                        <p class="textcrossed">Visit Supermarket</p>
+                    </div>
+                    <br>
+                    <span><i class="fa-regular fa-square"></i>Buy Vegetables</span>
+                </div>
+        
+                <div class="information">
+                    <h2 class="Head">Movies I will watch</h2>
+                    <hr>
+                    <br> <br>
+                    <div class="cb">
+                        <i class="fa-solid fa-square-check"></i>
+                        <p class="textcrossed">Strange Things 4</p>
+                    </div>
+                    <br>
+                    <span><i class="fa-regular fa-square"></i>Avengers Endgame</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--for second page-->
+    <div class="second" style="border: 2px solid grey;">
+        <h2 class="Add">Add New Task</h2><span><a href="index.html"><i class="fa-solid fa-xmark"></i></span></a>
+        <hr>
+        <br >
+        <input type="text" placeholder="Learn C++" class="AddForm"/>
+        <br>
+        <a href="index2.html"><input type="submit" value="+ Add Task" class="sub"/></a>
+    </div>
+</body>
+</html>
